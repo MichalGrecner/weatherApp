@@ -1,0 +1,45 @@
+TODO: 
+1) fetch weather data with current location - OK
+2) handle when no current position -> default location Prague
+3) loading screen?
+4)
+
+
+Weather icons
+https://openweathermap.org/weather-conditions
+
+forecast info
+https://openweathermap.org/forecast5
+
+0
+: 
+clouds
+: 
+{all: 0}
+dt
+: 
+1677531600
+dt_txt
+: 
+"2023-02-27 21:00:00"
+main
+: 
+{temp: 272.42, feels_like: 268.35, temp_min: 271.93, temp_max: 272.42, pressure: 1025, …}
+pop
+: 
+0
+sys
+: 
+{pod: 'n'}
+visibility
+: 
+10000
+weather
+: 
+[{…}]
+wind
+: 
+{speed: 3.5, deg: 72, gust: 7.85}
+[[Prototype]]
+: 
+Object
