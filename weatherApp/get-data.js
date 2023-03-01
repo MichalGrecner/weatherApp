@@ -14,7 +14,7 @@ export async function getWeather(location){
 export async function getForecast(location){
   const latitude = String(location[0]);
   const longitude = String(location[1]);
-  const URL = `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${apikey}`
+  const URL = `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=metric&appid=${apikey}`
   const response = await fetch(URL);
   const forecastData = await response.json()
   return forecastData

@@ -15,4 +15,31 @@
 
   box-sizing: border-box;
 }
+.forecast{
+  display: flex;
+  flex-direction:column;
+  gap:10px
 
+  
+}
+.card{
+  background-color: #6e6d6d;
+  border-radius: 5px;
+  padding:10px;
+}
+
+
+img{
+  height:80px;
+  width:80px;
+}
+
+p{
+  margin:0;
+}
+.currentWeather{
+  background-color: #6e6d6d;
+  border-radius: 5px;
+  padding:10px;
+  margin-bottom:30px;
+}
