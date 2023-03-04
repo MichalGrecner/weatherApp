@@ -1,6 +1,6 @@
 TODO: 
 1) fetch weather data with current location - OK
-2) handle when no current position -> default location Prague
+2) handle when no current position -> default location Prague - OK
 3) loading screen?
 4)
 
