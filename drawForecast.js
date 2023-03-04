@@ -28,7 +28,7 @@ export function drawForecast(weather){
 
     const icon = document.createElement("img");
     icon.classList.add("forecastIcon");
-    icon.src=`http://openweathermap.org/img/wn/${day.weather[0].icon}.png`
+    icon.src=`https://openweathermap.org/img/wn/${day.weather[0].icon}.png`
     card.appendChild(icon)
     forecastLine(".card"+i, `${day.weather[0].description}`, "description")
 

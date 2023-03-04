@@ -20,7 +20,7 @@ export function drawCurrentWeather(weather){
   createLineCurrent("description",weather.weather[0].description);
 
   const currentIcon = document.getElementById("actualIcon");
-  currentIcon.src=`http://openweathermap.org/img/wn/${weather.weather[0].icon}.png`;
+  currentIcon.src=`https://openweathermap.org/img/wn/${weather.weather[0].icon}.png`;
 
   createLineCurrent("temperature", `<span class="material-symbols-outlined">
   device_thermostat
